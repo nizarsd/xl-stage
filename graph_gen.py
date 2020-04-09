@@ -186,7 +186,8 @@ for g in range(N):
     no_edges = len(s); 
 
     # Edges 
-    loads = np.random.normal(MIN_BW, MAX_BW, no_edges)
+    # Loads should be integers (no. of packets) if the TG is to be used further to generate Task models 
+    loads = np.random.normal(MIN_BW, MAX_BW, no_edges)  
     
     loads = [limitednorm(MEAN_BW,VAR_BW,MIN_BW,MAX_BW) for i in range(no_edges)]
     
