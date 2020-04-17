@@ -3,5 +3,7 @@ XL-STaGe, a cross-layer tool for traffic-inclusive directed acyclic graph genera
 
 More details can be found in the following publication 
 
+Update: graph_gen.py replaces graph_gen.m (matlab script is now written in Python) 17-04-2020
+
 
 https://ieeexplore.ieee.org/document/7818372
